@@ -37,8 +37,8 @@ Copiez-collez ce template HTML pour commencer immédiatement :
 <body>
 
   <div class="container py-4">
-    <h1>Hello CM-DESIGN! 🎉</h1>
-    <p class="text-muted mb-3">Framework CSS prêt à l'emploi.</p>
+    <h1>Hello CM-DESIGN! </h1>
+    <p class="text-muted mb-3">Framework CSS de Church Manager prêt à l'emploi.</p>
 
     <!-- Buttons -->
     <div class="d-flex flex-wrap gap-2 mb-4">
@@ -69,7 +69,7 @@ Copiez-collez ce template HTML pour commencer immédiatement :
 
     <!-- Grid -->
     <h3 class="mt-4 mb-2">Grille responsive</h3>
-    <div class="row gap-2">
+    <div class="row row--gy-3">
       <div class="col-md-4">
         <div class="card card--flat p-3 text-center">Col 1</div>
       </div>
@@ -80,7 +80,6 @@ Copiez-collez ce template HTML pour commencer immédiatement :
         <div class="card card--flat p-3 text-center">Col 3</div>
       </div>
     </div>
-  </div>
 
   <!-- CM-DESIGN JS (theme toggle, modals, sidebar…) -->
   <script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.js"></script>
@@ -121,12 +120,12 @@ Copiez-collez ce template HTML pour commencer immédiatement :
 
 ## Fichiers disponibles
 
-| Fichier             | Usage                        |
-| ------------------- | ---------------------------- |
-| `cm-design.min.css` | **Production** — CSS minifié |
-| `cm-design.css`     | Développement — CSS lisible  |
-| `cm-design.min.js`  | **Production** — JS minifié  |
-| `cm-design.js`      | Développement — JS lisible   |
+| Fichier             | Usage                        | Taille          | Gzip           | Brotli         |
+| ------------------- | ---------------------------- | --------------- | -------------- | -------------- |
+| `cm-design.min.css` | **Production** — CSS minifié |  |  |  |
+| `cm-design.css`     | Développement — CSS lisible  |      | —              | —              |
+| `cm-design.min.js`  | **Production** — JS minifié  |   |   |   |
+| `cm-design.js`      | Développement — JS lisible   |       | —              | —              |
 
 ---
 

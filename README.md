@@ -32,7 +32,7 @@ Copiez-collez ce template HTML pour commencer immédiatement :
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- CM-DESIGN CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.css">
 </head>
 <body>
 
@@ -82,7 +82,7 @@ Copiez-collez ce template HTML pour commencer immédiatement :
     </div>
 
   <!-- CM-DESIGN JS (theme toggle, modals, sidebar…) -->
-  <script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.js"></script>
 </body>
 </html>
 ```

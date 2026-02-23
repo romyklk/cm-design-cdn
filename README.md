@@ -32,12 +32,12 @@ Copiez-collez ce template HTML pour commencer immédiatement :
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- CM-DESIGN CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.css">
 </head>
 <body>
 
   <div class="container py-4">
-    <h1>Hello CM-DESIGN! 🎉</h1>
+    <h1>Hello CM-DESIGN! </h1>
     <p class="text-muted mb-3">Framework CSS prêt à l'emploi.</p>
 
     <!-- Buttons -->
@@ -83,7 +83,7 @@ Copiez-collez ce template HTML pour commencer immédiatement :
   </div>
 
   <!-- CM-DESIGN JS (theme toggle, modals, sidebar…) -->
-  <script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.js"></script>
 </body>
 </html>
 ```
@@ -108,11 +108,14 @@ Copiez-collez ce template HTML pour commencer immédiatement :
 <script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.js"></script>
 ```
 
-### Dernière version (non recommandé en production)
+### Version épinglée (recommandé en production)
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.css">
+<script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.js"></script>
 ```
+
+> **Note :** Les URLs versionnées (`@vX.X.X`) ne sont disponibles qu'après un `git tag` + `git push --tags` sur le repo source.
 
 ---
 
@@ -147,9 +150,9 @@ Buttons · Cards · Tables · Forms · Alerts · Badges · Navbar · Modals · T
 
 ## Liens
 
-- 📖 [Documentation complète](https://github.com/romyklk/cm-design)
-- 🐛 [Signaler un bug](https://github.com/romyklk/cm-design/issues)
-- 📝 [Changelog](https://github.com/romyklk/cm-design/blob/main/CHANGELOG.md)
+- [Documentation complète](https://github.com/romyklk/cm-design)
+- [Signaler un bug](https://github.com/romyklk/cm-design/issues)
+- [Changelog](https://github.com/romyklk/cm-design/blob/main/CHANGELOG.md)
 
 ---
 
@@ -157,4 +160,4 @@ Buttons · Cards · Tables · Forms · Alerts · Badges · Navbar · Modals · T
 
 MIT © 2026 CM-DESIGN — Church Manager
 
-> ⚠️ Ce repo est généré automatiquement. Ne pas modifier directement — les changements seront écrasés au prochain déploiement.
+> Ce repo est généré automatiquement. Ne pas modifier directement — les changements seront écrasés au prochain déploiement.

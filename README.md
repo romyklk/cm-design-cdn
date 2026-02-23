@@ -37,7 +37,7 @@ Copiez-collez ce template HTML pour commencer immédiatement :
 <body>
 
   <div class="container py-4">
-    <h1>Hello CM-DESIGN! </h1>
+    <h1>Hello CM-DESIGN! 🎉</h1>
     <p class="text-muted mb-3">Framework CSS prêt à l'emploi.</p>
 
     <!-- Buttons -->
@@ -121,12 +121,12 @@ Copiez-collez ce template HTML pour commencer immédiatement :
 
 ## Fichiers disponibles
 
-| Fichier | Usage |
-|---------|-------|
+| Fichier             | Usage                        |
+| ------------------- | ---------------------------- |
 | `cm-design.min.css` | **Production** — CSS minifié |
-| `cm-design.css` | Développement — CSS lisible |
-| `cm-design.min.js` | **Production** — JS minifié |
-| `cm-design.js` | Développement — JS lisible |
+| `cm-design.css`     | Développement — CSS lisible  |
+| `cm-design.min.js`  | **Production** — JS minifié  |
+| `cm-design.js`      | Développement — JS lisible   |
 
 ---
 

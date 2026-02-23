@@ -31,8 +31,8 @@ Copiez-collez ce template HTML pour commencer immédiatement :
   <!-- Font Awesome (icônes) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-  <!-- CM-DESIGN CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.css">
+  <!-- CM-DESIGN CSS (dernière version) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.css">
 </head>
 <body>
 
@@ -82,7 +82,7 @@ Copiez-collez ce template HTML pour commencer immédiatement :
     </div>
 
   <!-- CM-DESIGN JS (theme toggle, modals, sidebar…) -->
-  <script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.js"></script>
 </body>
 </html>
 ```
@@ -91,30 +91,15 @@ Copiez-collez ce template HTML pour commencer immédiatement :
 
 ## Installation via CDN
 
-### CSS uniquement
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.css">
-```
-
-### CSS + JS
-
 ```html
 <!-- CSS dans <head> -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.css">
 
 <!-- JS avant </body> -->
-<script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@main/cm-design.min.js"></script>
 ```
 
-### Version épinglée (recommandé en production)
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.css">
-<script src="https://cdn.jsdelivr.net/gh/romyklk/cm-design-cdn@v1.1.0/cm-design.min.js"></script>
-```
-
-> **Note :** Les URLs versionnées (`@vX.X.X`) ne sont disponibles qu'après un `git tag` + `git push --tags` sur le repo source.
+> Les fichiers sont mis à jour automatiquement à chaque déploiement sur la branche `main`.
 
 ---
 

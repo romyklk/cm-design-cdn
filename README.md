@@ -1,7 +1,7 @@
 # CM-DESIGN — CDN Distribution
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.1.0-blue?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/version-1.2.0-blue?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/CSS_Framework-Church_Manager-purple?style=flat-square" alt="CM-DESIGN">
 </p>

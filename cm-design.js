@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-;(function () {
+; (function () {
     'use strict';
 
     const savedTheme = localStorage.getItem('cm-theme');
@@ -62,7 +62,7 @@
             if (!nodes.length) return;
 
             const first = nodes[0];
-            const last  = nodes[nodes.length - 1];
+            const last = nodes[nodes.length - 1];
 
             if (e.shiftKey && document.activeElement === first) {
                 e.preventDefault();
@@ -104,17 +104,17 @@
         }
 
         if (action === 'theme-toggle') {
-            const html   = document.documentElement;
+            const html = document.documentElement;
             const isDark = html.getAttribute('data-theme') === 'dark';
-            const next   = isDark ? 'light' : 'dark';
+            const next = isDark ? 'light' : 'dark';
             html.setAttribute('data-theme', next);
             localStorage.setItem('cm-theme', next);
             _syncThemeIcon(!isDark, target);
         }
 
         if (action === 'docs-toggle') {
-            const ds  = document.getElementById('sidebar');
-            const ov  = document.getElementById('overlay');
+            const ds = document.getElementById('sidebar');
+            const ov = document.getElementById('overlay');
             const ham = document.getElementById('hamburger');
 
             if (ds) ds.classList.toggle('open');
@@ -192,8 +192,8 @@
         if (e.key !== 'Escape') return;
 
         const docsSidebar = document.getElementById('sidebar');
-        const overlay     = document.getElementById('overlay');
-        const hamburger   = document.getElementById('hamburger');
+        const overlay = document.getElementById('overlay');
+        const hamburger = document.getElementById('hamburger');
 
         if (docsSidebar && docsSidebar.classList.contains('open')) {
             docsSidebar.classList.remove('open');
@@ -215,6 +215,15 @@
 
     document.querySelectorAll('[role="dialog"]').forEach(function (modal) {
         _trapFocus(modal);
+    });
+
+    // ── Scrollable region keyboard access (WCAG 2.1 SC 2.1.1) ───────────────
+    // Inject tabindex="0" on <pre> and .table-responsive so keyboard users
+    // can scroll them without a pointing device.
+    document.querySelectorAll('pre, .table-responsive').forEach(function (el) {
+        if (!el.hasAttribute('tabindex')) {
+            el.setAttribute('tabindex', '0');
+        }
     });
 
 })();

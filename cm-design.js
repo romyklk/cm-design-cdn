@@ -113,7 +113,11 @@
                 _syncThemeIcon(!isDark, target);
             };
             if (document.startViewTransition) {
-                document.startViewTransition(_apply);
+                html.setAttribute('data-theme-switching', 'to-' + next);
+                const transition = document.startViewTransition(_apply);
+                transition.finished.finally(function () {
+                    html.removeAttribute('data-theme-switching');
+                });
             } else {
                 _apply();
             }

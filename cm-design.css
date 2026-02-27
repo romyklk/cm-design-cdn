@@ -592,6 +592,30 @@ h6 {
   border-radius: 2px;
 }
 
+@keyframes cm-theme-reveal {
+  from {
+    clip-path: circle(0% at calc(100% - 3rem) 3rem);
+  }
+  to {
+    clip-path: circle(150% at calc(100% - 3rem) 3rem);
+  }
+}
+::view-transition-old(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-new(root) {
+  animation: cm-theme-reveal 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+  mix-blend-mode: normal;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-new(root),
+  ::view-transition-old(root) {
+    animation: none;
+  }
+}
 body {
   font-family: "Montserrat", -apple-system, blinkmacsystemfont, "Segoe UI", "Helvetica Neue", arial, sans-serif;
   font-size: 1rem;

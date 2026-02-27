@@ -107,10 +107,10 @@ Copiez-collez ce template HTML pour commencer immédiatement :
 
 | Fichier             | Usage                        | Taille          | Gzip           | Brotli         |
 | ------------------- | ---------------------------- | --------------- | -------------- | -------------- |
-| `cm-design.min.css` | **Production** — CSS minifié | 235.5 KB | 34.9 KB | 29.5 KB |
-| `cm-design.css`     | Développement — CSS lisible  | 288.6 KB     | —              | —              |
-| `cm-design.min.js`  | **Production** — JS minifié  | 4.0 KB  | 1.4 KB  | 1.2 KB  |
-| `cm-design.js`      | Développement — JS lisible   | 8.3 KB      | —              | —              |
+| `cm-design.min.css` | **Production** — CSS minifié | 235.9 KB | 35.0 KB | 29.6 KB |
+| `cm-design.css`     | Développement — CSS lisible  | 289.1 KB     | —              | —              |
+| `cm-design.min.js`  | **Production** — JS minifié  | 4.0 KB  | 1.4 KB  | 1.3 KB  |
+| `cm-design.js`      | Développement — JS lisible   | 8.5 KB      | —              | —              |
 
 ---
 

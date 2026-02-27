@@ -107,9 +107,16 @@
             const html = document.documentElement;
             const isDark = html.getAttribute('data-theme') === 'dark';
             const next = isDark ? 'light' : 'dark';
-            html.setAttribute('data-theme', next);
-            localStorage.setItem('cm-theme', next);
-            _syncThemeIcon(!isDark, target);
+            const _apply = function () {
+                html.setAttribute('data-theme', next);
+                localStorage.setItem('cm-theme', next);
+                _syncThemeIcon(!isDark, target);
+            };
+            if (document.startViewTransition) {
+                document.startViewTransition(_apply);
+            } else {
+                _apply();
+            }
         }
 
         if (action === 'docs-toggle') {

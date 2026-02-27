@@ -14391,6 +14391,10 @@ nav.pagination {
   color: var(--cm-danger) !important;
 }
 
+.text-heading {
+  color: var(--cm-heading-color) !important;
+}
+
 .text-body {
   color: var(--cm-body-color) !important;
 }

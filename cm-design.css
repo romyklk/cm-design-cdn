@@ -14375,6 +14375,22 @@ nav.pagination {
   color: var(--cm-warning-text) !important;
 }
 
+.text-primary {
+  color: var(--cm-primary) !important;
+}
+
+.text-secondary {
+  color: var(--cm-secondary) !important;
+}
+
+.text-info {
+  color: var(--cm-info) !important;
+}
+
+.text-danger {
+  color: var(--cm-danger) !important;
+}
+
 .text-body {
   color: var(--cm-body-color) !important;
 }
